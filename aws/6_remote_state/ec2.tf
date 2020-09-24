@@ -1,5 +1,5 @@
 resource "aws_instance" "Tanmoyawsserver" {
-  ami = "ami-0603cbe34fd08cb81"
+  ami = "ami-0947d2ba12ee1ff75"
   instance_type = "t2.micro"
 
   tags = {
