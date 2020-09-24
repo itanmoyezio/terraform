@@ -4,7 +4,7 @@ resource "aws_instance" "Tanmoyawsserver" {
 
   tags = {
     Name = "Tanmoy-aws-ec2-instance"
-    Env = "Prod"
+    Env = "Test"
   }
 }
 
