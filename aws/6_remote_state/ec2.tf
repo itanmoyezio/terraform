@@ -8,7 +8,7 @@ resource "aws_instance" "Tanmoyawsserver" {
   }
 }
 
-output "myawsserver-ip" {
-  value = "${aws_instance.myawsserver.public_ip}"
+output "Tanmoyawsserver-ip" {
+  value = "${aws_instance.Tanmoyawsserver.public_ip}"
 }
 
